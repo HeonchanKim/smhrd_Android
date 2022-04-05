@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ex0404">
-
     <!-- 권한설정 -->
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ex0404">
+
+        <!--
+            실행할 액티비티 순서를 변경하는 방법
+            1. android:name 값을 처음 실행할 액티비티 이름으로 변경
+            2. activity 단일태그를 시작&끝 태그 구조로 변경한 후 intent-filter태그를 옮기기기
+       -->
+
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true">
+
+            <!-- 액티비티를 실행해주는 역할 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
