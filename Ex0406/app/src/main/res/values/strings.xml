@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppTest</string>
+
+    <!-- activity_main.xml -->
+    <string name="tvMsg_text">오늘 밖에 날씨가 무척 좋네요!</string>
+    <string name="edt_hint">입력해주세요</string>
+    <string name="btnChange_text">✨텍스트변경✨</string>
+    <string name="btnBgChange_text">🚀배경색변경🚀</string>
+
+    <string name="btn1_red">🔴🟥빨강🟥🔴</string>
+    <string name="btn2_green">🟢🟩초록🟩🟢</string>
+    <string name="btn3_blue">🔵🟦파랑🟦🔵</string>
+</resources>

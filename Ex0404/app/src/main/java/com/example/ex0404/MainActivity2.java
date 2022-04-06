@@ -2,6 +2,7 @@ package com.example.ex0404;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -15,7 +16,17 @@ public class MainActivity2 extends AppCompatActivity {
         //TextView를 참조하는 객체생성 => View 초기화(★★★★★)
         TextView tvData = findViewById(R.id.tvData);
 
-        tvData.setText("테스트 텍스트!");
+        tvData.setText("텍스트뷰 초기화");
+
+        //TextView의 배경색 변경 2가지
+        //1. 정해진 색상 활용
+        //tvData.setBackgroundColor(Color.BLUE);
+
+        //2. 16진수로 색상 적용
+        tvData.setBackgroundColor(Color.parseColor("#ff0000"));
+
+        //TextView의 글자색 변경
+        tvData.setTextColor(Color.WHITE);
 
     }
 }
