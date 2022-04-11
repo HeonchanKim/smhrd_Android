@@ -20,4 +20,11 @@
     <string name="btnPre_text">이전</string>
     <string name="btnNext_text">다음</string>
 
+    <!-- activity_main5.xml -->
+    <string name="title_label">주사위게임</string>
+    <string name="tvDice">DICE</string>
+    <string name="btnShake_text">흔들기</string>
+    <string name="tvUser1_text">0</string>
+    <string name="tvUser2_text">0</string>
+    <string name="vs_label">:</string>
 </resources>
