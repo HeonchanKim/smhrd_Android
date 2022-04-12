@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/Ex0411/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/Ex0411/app/src/main/res/layout/activity_main.xml" value="0.44675324675324674" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/Ex0411/app/src/main/res/layout/activity_main2.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/Ex0411/app/src/main/res/layout/constraint_01.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/Ex0411/app/src/main/res/layout/constraint_02.xml" value="0.33" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/Ex0411/app/src/main/res/layout/constraint_03.xml" value="0.33" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/Ex0411/app/src/main/res/layout/kakao_login.xml" value="0.25" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/Ex0411/app/src/main/res/layout/linear.xml" value="0.36614583333333334" />
       </map>
     </option>

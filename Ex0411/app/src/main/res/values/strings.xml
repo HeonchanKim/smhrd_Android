@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Ex0411</string>
+
+    <!-- constraint_02.xml -->
+    <string name="title_label">카카오(Kakao)</string>
+    <string name="desc_label">\"Connect Everything\" 새로운 연결, 더 나은 세상</string>
+    <string name="vision_label">비전</string>
+    <string name="vision_desc_label">카카오는 새로운 연결을 통해 더 편리하고 즐거운 세상을 꿈꿉니다. 사람과 사람, 사람과 기술을 한층 가깝게 연결함으로써<br/> 세상을 어제보다 더 나은 곳으로 만들기 위해 노력하고 있습니다.</string>
+
+    <!-- constraint_03.xml -->
+    <string name="spread_label">spread</string>
+    <string name="spread_inside_label">spread-inside</string>
+    <string name="weighted_label">weighted</string>
+    <string name="packed_label">packed</string>
+
+    <!-- kakao_login.xml -->
+    <string name="btnText1">1</string>
+    <string name="btnText2">2</string>
+    <string name="btnText3">3</string>
+    <string name="btnText4">4</string>
+    <string name="btnText5">5</string>
+    <string name="btnText6">6</string>
+    <string name="btnText7">7</string>
+    <string name="btnText8">8</string>
+    <string name="btnText9">9</string>
+    <string name="btnText0">0</string>
+    <string name="btnTextX">X</string>
+    <string name="pw_msg_label">지문을 사용하거나 비밀번호를 입력하세요.</string>
+    <string name="pw_text">●</string>
 </resources>
