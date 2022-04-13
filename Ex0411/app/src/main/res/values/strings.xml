@@ -27,4 +27,13 @@
     <string name="btnTextX">X</string>
     <string name="pw_msg_label">지문을 사용하거나 비밀번호를 입력하세요.</string>
     <string name="pw_text">●</string>
+
+    <!-- kakao_main_login.xml -->
+    <string name="etEmail">이메일</string>
+    <string name="etPw">비밀번호</string>
+    <string name="btnLogin">로그인</string>
+    <string name="tvCheckText">잠금모드로 자동로그인</string>
+    <string name="tvText">모바일에서 카카오계정을 확인할 수 있습니다.</string>
+    <string name="tvLoginInfo">카카오 계정안내</string>
+    <string name="tvPw">비밀번호를 잊어버리셨나요?</string>
 </resources>

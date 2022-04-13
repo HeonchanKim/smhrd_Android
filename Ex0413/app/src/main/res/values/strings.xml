@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Ex0413</string>
+
+    <!-- activity_main2.xml -->
+    <string name="btnWeb">웹 페이지보기</string>
+    <string name="btnCamera">카메라 호출</string>
+    <string name="btnDial">전화화면 띄우기</string>
+    <string name="btnCall">전화걸기</string>
+
+    <!--  acitivity_first.xml  -->
+    <string name="tvFirst_label">First화면</string>
+    <string name="btnFirst">Second로 이동</string>
+
+    <!--  acitivity_second.xml  -->
+    <string name="tvSecond_label">Second화면</string>
+    <string name="btnSecond">First로 이동</string>
+
+    <!--  acitivity_kakao_login.xml  -->
+    <string name="id_text">\  이메일</string>
+    <string name="pw_text">\  비밀번호</string>
+    <string name="btn_login">로그인</string>
+    <string name="lockmode_text">잠금모드로 자동로그인</string>
+    <string name="mobile_text">모바일에서 카카오계정을 확일할 수 있습니다.</string>
+    <string name="guide">카카오 계정안내</string>
+    <string name="fdpw">비밀번호를 잊어버리셨나요?</string>
+
+
+</resources>
