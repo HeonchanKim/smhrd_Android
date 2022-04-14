@@ -10,6 +10,9 @@
     <!--  acitivity_first.xml  -->
     <string name="tvFirst_label">First화면</string>
     <string name="btnFirst">Second로 이동</string>
+    <string name="btnFirst_text2">Third로 이동</string>
+    <string name="btnCapture_text">사진찍기</string>
+
 
     <!--  acitivity_second.xml  -->
     <string name="tvSecond_label">Second화면</string>
@@ -24,5 +27,7 @@
     <string name="guide">카카오 계정안내</string>
     <string name="fdpw">비밀번호를 잊어버리셨나요?</string>
 
+    <!-- activity_third.xml -->
+    <string name="btnThird_text">First로 이동</string>
 
 </resources>

@@ -23,7 +23,11 @@ public class SecondActivity extends AppCompatActivity {
 
         //Intent객체생성
         Intent intent = getIntent();
-        tvData.setText(intent.getStringExtra("data"));
+
+        //Intent에 저장된 데이터 접근 시 get타입명Extra(name) 호출
+        //기본데이터타입의 데이터 접근 시 defaultValue를 설정해야 한다!
+        tvData.setText(intent.getStringExtra("data")
+                +intent.getIntExtra("num1",0));
 
 
         btnSecond.setOnClickListener(new View.OnClickListener() {
