@@ -14,6 +14,7 @@ public class ViewHolder {
     private TextView tvPhone;
     private ImageButton btnCall;
 
+
     public ViewHolder(View itemView) {
         imageView = itemView.findViewById(R.id.imageView);
         tvName =  itemView.findViewById(R.id.tvName);

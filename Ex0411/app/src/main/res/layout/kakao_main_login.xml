@@ -59,45 +59,67 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextTextPersonName2"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="#FFFFFF"
         android:ems="10"
-        android:hint="@string/etEmail"
+        android:hint="@string/edtEmail_hint"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline10"
-        app:layout_constraintVertical_bias="0.45"
         app:layout_constraintVertical_chainStyle="packed" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/edtPw_hint"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/button38"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_login_label"
+        android:textColor="#80000000"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toEndOf="@+id/button38"
+        app:layout_constraintStart_toStartOf="@+id/button38"
+        app:layout_constraintTop_toBottomOf="@+id/button38" />
 
     <Button
         android:id="@+id/button38"
         android:layout_width="0dp"
         android:layout_height="50dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="#715C5E"
-        android:insetRight="0dp"
+        android:insetTop="0dp"
         android:insetBottom="0dp"
         android:text="@string/btnLogin"
         android:textColor="#7D6867"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toTopOf="@+id/checkBox"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/textView30"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/tvText"
-        android:textColor="#7C6135"
-        app:layout_constraintBottom_toTopOf="@+id/textView32"
+        android:text="@string/mobile_user_label"
+        app:layout_constraintBottom_toTopOf="@+id/textView31"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
@@ -105,52 +127,25 @@
         app:layout_constraintVertical_chainStyle="packed" />
 
     <TextView
-        android:id="@+id/textView32"
+        android:id="@+id/textView31"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/tvLoginInfo"
+        android:text="@string/mobile_user_label2"
         android:textColor="#7C6135"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
-        app:layout_constraintEnd_toStartOf="@+id/guideline8"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/guideline7"
-        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+        app:layout_constraintEnd_toEndOf="@+id/textView30"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
     <TextView
-        android:id="@+id/textView33"
+        android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tvPw"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/pw_search_text"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
-        app:layout_constraintTop_toTopOf="@+id/guideline12"
-        app:layout_constraintVertical_bias="0.177" />
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tvCheckText"
-        android:textColor="#80000000"
-        app:layout_constraintBottom_toTopOf="@+id/guideline11"
-        app:layout_constraintEnd_toEndOf="@+id/button38"
-        app:layout_constraintStart_toStartOf="@+id/button38"
-        app:layout_constraintTop_toBottomOf="@+id/button38" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:ems="10"
-        android:hint="@string/etPw"
-        android:inputType="textPassword"
-        android:paddingLeft="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/button38"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 </androidx.constraintlayout.widget.ConstraintLayout>

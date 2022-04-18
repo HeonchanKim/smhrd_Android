@@ -19,13 +19,13 @@
     <string name="btnSecond">First로 이동</string>
 
     <!--  acitivity_kakao_login.xml  -->
-    <string name="id_text">\  이메일</string>
-    <string name="pw_text">\  비밀번호</string>
-    <string name="btn_login">로그인</string>
-    <string name="lockmode_text">잠금모드로 자동로그인</string>
-    <string name="mobile_text">모바일에서 카카오계정을 확일할 수 있습니다.</string>
-    <string name="guide">카카오 계정안내</string>
-    <string name="fdpw">비밀번호를 잊어버리셨나요?</string>
+    <string name="edtEmail_hint">이메일</string>
+    <string name="edtPw_hint">비밀번호</string>
+    <string name="btnLogin">로그인</string>
+    <string name="chk_login_label">잠금모드로 자동로그인</string>
+    <string name="mobile_user_label">모바일에서 카카오계정을 확인할 수 있습니다.</string>
+    <string name="mobile_user_label2">카카오 계정안내</string>
+    <string name="pw_search_text">비밀번호를 잊어버리셨나요?</string>
 
     <!-- activity_third.xml -->
     <string name="btnThird_text">First로 이동</string>
