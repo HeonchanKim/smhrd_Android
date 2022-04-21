@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Ex0419</string>
+
+    <!-- activity_login.xml -->
+    <string name="tvLogin">Login</string>
+    <string name="edtId">ID입력</string>
+    <string name="edtPw">PW입력</string>
+    <string name="btnLogin">로그인</string>
+    <string name="btnJoin">회원가입</string>
+
+    <!-- activity_join.xml -->
+    <string name="edtId_Input">가입할 ID입력</string>
+    <string name="edtNick">NICK입력</string>
+    <string name="edtPw_Input">PW입력</string>
+    <string name="btnJoin2">가입등록</string>
+
 </resources>

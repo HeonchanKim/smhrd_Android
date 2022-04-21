@@ -13,10 +13,16 @@
         android:theme="@style/Theme.Ex0419"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".MainActivity"
+            android:name=".JoinActivity"
             android:exported="false" />
         <activity
             android:name=".JsonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
