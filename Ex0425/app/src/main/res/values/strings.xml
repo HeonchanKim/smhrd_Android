@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ex0425</string>
+
+    <!-- activity_login.xml -->
+    <string name="tvTitle">HC Talk App</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="hintId">아이디 입력</string>
+    <string name="hintPw">비밀번호 입력</string>
+
+    <!-- activity_chat.xml -->
+    <string name="btnMsgSend">전송</string>
+
+</resources>
