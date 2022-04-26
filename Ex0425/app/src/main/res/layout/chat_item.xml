@@ -11,6 +11,8 @@
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_launcher_background" />
@@ -20,59 +22,55 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/tvOtherMsg"
         app:layout_constraintStart_toEndOf="@+id/imgOther"
-        app:layout_constraintTop_toTopOf="@+id/imgOther" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvOtherMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
         android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="@+id/imgOther"
-        app:layout_constraintEnd_toEndOf="@+id/tvOtherNm"
-        app:layout_constraintStart_toStartOf="@+id/tvOtherNm"
+        app:layout_constraintStart_toEndOf="@+id/imgOther"
         app:layout_constraintTop_toBottomOf="@+id/tvOtherNm" />
 
     <TextView
         android:id="@+id/tvOtherTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="@+id/tvOtherMsg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintHorizontal_bias="0.031"
         app:layout_constraintStart_toEndOf="@+id/tvOtherMsg"
-        app:layout_constraintTop_toTopOf="@+id/tvOtherMsg"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintTop_toTopOf="@+id/tvOtherMsg" />
 
     <TextView
         android:id="@+id/tvMyTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="243dp"
-        android:layout_marginTop="97dp"
-        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="8dp"
         android:text="TextView"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tvMyMsg"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/tvMyMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:background="#FBE200"
         android:text="TextView"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tvMyTime"
-        app:layout_constraintTop_toTopOf="@+id/tvMyTime"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
