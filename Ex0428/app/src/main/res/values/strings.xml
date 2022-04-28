@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ex0428</string>
+
+    <!-- activity_main.xml -->
+    <string name="btnStart">시작</string>
+
+    <!-- activity_more.xml -->
+    <string name="tvTitle">✨🔥두더지잡기🔥✨</string>
+    <string name="tvTime_label">남은시간</string>
+    <string name="tvCount_label">잡은개수</string>
+    <string name="tvTime">30</string>
+    <string name="tvCount">0</string>
+
+
+
+</resources>
